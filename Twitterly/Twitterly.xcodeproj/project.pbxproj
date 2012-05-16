@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C684500715635EBC007F3F05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C684500615635EBC007F3F05 /* UIKit.framework */; };
+		C684500915635EBC007F3F05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C684500815635EBC007F3F05 /* Foundation.framework */; };
+		C684500B15635EBC007F3F05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C684500A15635EBC007F3F05 /* CoreGraphics.framework */; };
+		C684501115635EBC007F3F05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C684500F15635EBC007F3F05 /* InfoPlist.strings */; };
+		C684501315635EBC007F3F05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C684501215635EBC007F3F05 /* main.m */; };
+		C684501715635EBC007F3F05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C684501615635EBC007F3F05 /* AppDelegate.m */; };
+		C684502615635EE3007F3F05 /* TweetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C684502415635EE3007F3F05 /* TweetsViewController.m */; };
+		C684502715635EE3007F3F05 /* TweetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C684502515635EE3007F3F05 /* TweetsViewController.xib */; };
+		C684502A1563602A007F3F05 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = C68450291563602A007F3F05 /* Tweet.m */; };
+		C6845036156364D7007F3F05 /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6845034156364D7007F3F05 /* TweetViewController.m */; };
+		C6845037156364D7007F3F05 /* TweetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6845035156364D7007F3F05 /* TweetViewController.xib */; };
+		C6F820491563718C00138D62 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F820441563718C00138D62 /* NSObject+SBJSON.m */; };
+		C6F8204A1563718C00138D62 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F820461563718C00138D62 /* NSString+SBJSON.m */; };
+		C6F8204B1563718C00138D62 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F820481563718C00138D62 /* SBJSON.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C684500215635EBC007F3F05 /* Twitterly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitterly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C684500615635EBC007F3F05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C684500815635EBC007F3F05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C684500A15635EBC007F3F05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C684500E15635EBC007F3F05 /* Twitterly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twitterly-Info.plist"; sourceTree = "<group>"; };
+		C684501015635EBC007F3F05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C684501215635EBC007F3F05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C684501415635EBC007F3F05 /* Twitterly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twitterly-Prefix.pch"; sourceTree = "<group>"; };
+		C684501515635EBC007F3F05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C684501615635EBC007F3F05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C684502315635EE3007F3F05 /* TweetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetsViewController.h; sourceTree = "<group>"; };
+		C684502415635EE3007F3F05 /* TweetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetsViewController.m; sourceTree = "<group>"; };
+		C684502515635EE3007F3F05 /* TweetsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetsViewController.xib; sourceTree = "<group>"; };
+		C68450281563602A007F3F05 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		C68450291563602A007F3F05 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		C6845033156364D7007F3F05 /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
+		C6845034156364D7007F3F05 /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
+		C6845035156364D7007F3F05 /* TweetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetViewController.xib; sourceTree = "<group>"; };
+		C6F820421563718C00138D62 /* JSONFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONFramework.h; sourceTree = "<group>"; };
+		C6F820431563718C00138D62 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		C6F820441563718C00138D62 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		C6F820451563718C00138D62 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		C6F820461563718C00138D62 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		C6F820471563718C00138D62 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		C6F820481563718C00138D62 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6844FFF15635EBC007F3F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C684500715635EBC007F3F05 /* UIKit.framework in Frameworks */,
+				C684500915635EBC007F3F05 /* Foundation.framework in Frameworks */,
+				C684500B15635EBC007F3F05 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6844FF715635EBC007F3F05 = {
+			isa = PBXGroup;
+			children = (
+				C6F820411563718C00138D62 /* JSONFramework.ARC */,
+				C684500C15635EBC007F3F05 /* Twitterly */,
+				C684500515635EBC007F3F05 /* Frameworks */,
+				C684500315635EBC007F3F05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C684500315635EBC007F3F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C684500215635EBC007F3F05 /* Twitterly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C684500515635EBC007F3F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C684500615635EBC007F3F05 /* UIKit.framework */,
+				C684500815635EBC007F3F05 /* Foundation.framework */,
+				C684500A15635EBC007F3F05 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C684500C15635EBC007F3F05 /* Twitterly */ = {
+			isa = PBXGroup;
+			children = (
+				C684501515635EBC007F3F05 /* AppDelegate.h */,
+				C684501615635EBC007F3F05 /* AppDelegate.m */,
+				C684500D15635EBC007F3F05 /* Supporting Files */,
+				C684502315635EE3007F3F05 /* TweetsViewController.h */,
+				C684502415635EE3007F3F05 /* TweetsViewController.m */,
+				C684502515635EE3007F3F05 /* TweetsViewController.xib */,
+				C68450281563602A007F3F05 /* Tweet.h */,
+				C68450291563602A007F3F05 /* Tweet.m */,
+				C6845033156364D7007F3F05 /* TweetViewController.h */,
+				C6845034156364D7007F3F05 /* TweetViewController.m */,
+				C6845035156364D7007F3F05 /* TweetViewController.xib */,
+			);
+			path = Twitterly;
+			sourceTree = "<group>";
+		};
+		C684500D15635EBC007F3F05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C684500E15635EBC007F3F05 /* Twitterly-Info.plist */,
+				C684500F15635EBC007F3F05 /* InfoPlist.strings */,
+				C684501215635EBC007F3F05 /* main.m */,
+				C684501415635EBC007F3F05 /* Twitterly-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6F820411563718C00138D62 /* JSONFramework.ARC */ = {
+			isa = PBXGroup;
+			children = (
+				C6F820421563718C00138D62 /* JSONFramework.h */,
+				C6F820431563718C00138D62 /* NSObject+SBJSON.h */,
+				C6F820441563718C00138D62 /* NSObject+SBJSON.m */,
+				C6F820451563718C00138D62 /* NSString+SBJSON.h */,
+				C6F820461563718C00138D62 /* NSString+SBJSON.m */,
+				C6F820471563718C00138D62 /* SBJSON.h */,
+				C6F820481563718C00138D62 /* SBJSON.m */,
+			);
+			path = JSONFramework.ARC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C684500115635EBC007F3F05 /* Twitterly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C684502015635EBC007F3F05 /* Build configuration list for PBXNativeTarget "Twitterly" */;
+			buildPhases = (
+				C6844FFE15635EBC007F3F05 /* Sources */,
+				C6844FFF15635EBC007F3F05 /* Frameworks */,
+				C684500015635EBC007F3F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twitterly;
+			productName = Twitterly;
+			productReference = C684500215635EBC007F3F05 /* Twitterly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6844FF915635EBC007F3F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "jTribe Holdings Pty Ltd";
+			};
+			buildConfigurationList = C6844FFC15635EBC007F3F05 /* Build configuration list for PBXProject "Twitterly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6844FF715635EBC007F3F05;
+			productRefGroup = C684500315635EBC007F3F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C684500115635EBC007F3F05 /* Twitterly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C684500015635EBC007F3F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C684501115635EBC007F3F05 /* InfoPlist.strings in Resources */,
+				C684502715635EE3007F3F05 /* TweetsViewController.xib in Resources */,
+				C6845037156364D7007F3F05 /* TweetViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6844FFE15635EBC007F3F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C684501315635EBC007F3F05 /* main.m in Sources */,
+				C684501715635EBC007F3F05 /* AppDelegate.m in Sources */,
+				C684502615635EE3007F3F05 /* TweetsViewController.m in Sources */,
+				C684502A1563602A007F3F05 /* Tweet.m in Sources */,
+				C6845036156364D7007F3F05 /* TweetViewController.m in Sources */,
+				C6F820491563718C00138D62 /* NSObject+SBJSON.m in Sources */,
+				C6F8204A1563718C00138D62 /* NSString+SBJSON.m in Sources */,
+				C6F8204B1563718C00138D62 /* SBJSON.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C684500F15635EBC007F3F05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C684501015635EBC007F3F05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C684501E15635EBC007F3F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C684501F15635EBC007F3F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C684502115635EBC007F3F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twitterly/Twitterly-Prefix.pch";
+				INFOPLIST_FILE = "Twitterly/Twitterly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C684502215635EBC007F3F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twitterly/Twitterly-Prefix.pch";
+				INFOPLIST_FILE = "Twitterly/Twitterly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6844FFC15635EBC007F3F05 /* Build configuration list for PBXProject "Twitterly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C684501E15635EBC007F3F05 /* Debug */,
+				C684501F15635EBC007F3F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C684502015635EBC007F3F05 /* Build configuration list for PBXNativeTarget "Twitterly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C684502115635EBC007F3F05 /* Debug */,
+				C684502215635EBC007F3F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6844FF915635EBC007F3F05 /* Project object */;
+}
